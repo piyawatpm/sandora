@@ -5,7 +5,7 @@ const chill = () => {
     <div>
       <p>hello</p>
       <h1>hi
-        
+
       </h1>
     </div>
   );
@@ -27,7 +27,6 @@ const Project = () => {
           stroke: "none",
         }}
         href="http://espen.codes/"
-        children={chill}
       />
     </div>
   );
