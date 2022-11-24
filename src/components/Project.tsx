@@ -17,7 +17,7 @@ const Project = () => {
         </h1>
         <div className=" pt-10 flex  justify-center ">
           <div className=" flex-col  flex   ">
-            <div className="hex bg-gradient-to-b from-[#FF0090] to-[#A90AE1] w-[317px] h-[279px] flex flex-col items-center p-3">
+            <a href="http://sandotoken.io/" target="_blank" className="hex  cursor-pointer bg-gradient-to-b from-[#FF0090] to-[#A90AE1] w-[317px] h-[279px] flex flex-col items-center p-3" rel="noreferrer">
               <img
                 src="/images/logo/logo-sando.png"
                 className="w-[140px]"
@@ -29,10 +29,10 @@ const Project = () => {
               <p className=" text-[14px] text-center max-w-[200px]">
                 The Currency used for the Sandora Projects Platform
               </p>
-            </div>
+            </a>
           </div>
           <div className=" flex-col flex ml-[-70px] mt-[-9px]   ">
-            <div className="hex  translate-y-[50%] oceansky w-[317px] h-[279px] flex flex-col items-center p-3">
+            <a  href="https://oceansky.io/" target="_blank" className="hex  cursor-pointer  translate-y-[50%] oceansky w-[317px] h-[279px] flex flex-col items-center p-3" rel="noreferrer">
               <img
                 src="/images/logo/logo-oceansky.png"
                 className="w-[140px]"
@@ -44,10 +44,10 @@ const Project = () => {
               <p className=" text-[14px] text-center max-w-[200px]">
               NFTs Merketplce Platform on Ethereum Chain Network
               </p>
-            </div>
+            </a>
           </div>
           <div className=" flex-col flex ml-[-70px]  ">
-            <div className="hex   solsky w-[317px] h-[279px] flex flex-col items-center p-3">
+            <a href="https://www.solsky.io/" target="_blank" className="hex  cursor-pointer   solsky w-[317px] h-[279px] flex flex-col items-center p-3" rel="noreferrer">
               <img
                 src="/images/logo/logo-solsky.png"
                 className="w-[140px]"
@@ -59,8 +59,8 @@ const Project = () => {
               <p className=" text-[14px] text-center max-w-[200px]">
               NFTs Marketplace Platform on Solana Chain Network
               </p>
-            </div>
-            <div className="hex bg-gradient-to-b mt-[-18px] from-[#CC00FF] to-[#320071] w-[317px] h-[279px] flex flex-col  items-center justify-center p-3">
+            </a>
+            <div className="hex  cursor-pointer bg-gradient-to-b mt-[-18px] from-[#CC00FF] to-[#320071] w-[317px] h-[279px] flex flex-col  items-center justify-center p-3">
               <img
                 src="/images/logo/logo-monster.png"
                 className="w-[218px] h-[79px]"
@@ -73,7 +73,7 @@ const Project = () => {
               Metaverse <br/>GameFi & Play-to-Earn
               </p>
             </div>
-            <div className="hex bg-gradient-to-b mt-[-18px] from-[#CC00FF] to-[#320071] w-[317px] h-[279px] flex flex-col items-center justify-center p-3">
+            <a  className="hex  cursor-pointer bg-gradient-to-b mt-[-18px] from-[#CC00FF] to-[#320071] w-[317px] h-[279px] flex flex-col items-center justify-center p-3" rel="noreferrer">
               <img
                 src="/images/logo/logo-city.png"
                 className="w-[249px] h-[118px]"
@@ -85,11 +85,11 @@ const Project = () => {
               <p className=" text-[14px] text-center max-w-[200px]">
               The Future Virtual <br/> Metaverse Game
               </p>
-            </div>
+            </a>
          
           </div>
           <div className=" flex-col flex ml-[-70px] mt-[-9px]">
-            <div className="hex translate-y-[50%] metasando w-[317px] h-[279px] flex flex-col items-center p-3">
+            <a href="https://www.metasando.io/" target="_blank" className="hex  cursor-pointer translate-y-[50%] metasando w-[317px] h-[279px] flex flex-col items-center p-3" rel="noreferrer">
               <img
                 src="/images/logo/logo-metasando.png"
                 className="w-[140px]"
@@ -101,8 +101,8 @@ const Project = () => {
               <p className=" text-[14px] text-center max-w-[200px]">
               Metaverse Game NFTs Marketplace Platform on Cross Chain Bridge
               </p>
-            </div>
-            <div className="hex bg-gradient-to-b mt-[-18px] translate-y-[50%] from-[#FF0090] to-[#A90AE1] w-[317px] h-[279px] flex flex-col items-center  pt-5 p-3">
+            </a>
+            <div className="hex  cursor-pointer bg-gradient-to-b mt-[-18px] translate-y-[50%] from-[#FF0090] to-[#A90AE1] w-[317px] h-[279px] flex flex-col items-center  pt-5 p-3">
               <img
                 src="/images/logo/logo-spin.png"
                 className="w-[140px]"

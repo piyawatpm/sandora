@@ -17,11 +17,16 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    extend: {
+      animation: {
+        'bounce-slow': 'bounce 3s infinite',
+      }
     }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [ require("tailwindcss-animation-delay"),],
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
 }
