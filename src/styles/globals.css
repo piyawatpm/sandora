@@ -37,3 +37,28 @@ a {
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
+.textgradient-yellow{
+  background: linear-gradient(135.67deg, #FBB820 35.49%, #FF8159 58.84%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.textgradient-green{
+  background: linear-gradient(90.51deg, #00FF57 4.61%, #EBFF0B 80.41%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.hex {
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+.oceansky{
+background: radial-gradient(42.01% 42.01% at 52.77% 50.19%, #0098FF 0%, #0067FF 47.92%, #0A5DD8 85.42%)
+}
+.solsky{
+  background: radial-gradient(64.87% 64.87% at 50% 50%, #0317CC 0%, #091023 100%)
+}
+.metasando{
+  background: radial-gradient(58.55% 58.55% at 50% 50%, #B903FC 0%, #091023 100%)
+}
