@@ -1,0 +1,19 @@
+{
+    "herosection.welcome":"ยินดีต้อนรับสู่",
+    "herosection.welcome.description":"บริษัท Sandora จำกัด จดทะเบียนที่ประเทศออสเตรเลียในเดือนมีนาคม 2022 เรากำลังจัดทำระบบนิเวศทางธุรกิจเพื่อสร้างระบบเศรษฐกิจเสมือนจริงขึ้น ระบบนี้ช่วยเอื้อโอกาสในการเติบโตทางธุรกิจใหม่ๆ ทั้งธุรกิจของคุณและของเรา ด้วยเทคโนโลยีบล็อกเชนที่เราเลือกใช้ทั้งปลอดภัย รวดเร็ว และโปร่งใส",
+    "project.header":"SANDORA PROJECTS",
+    "project.description":"เหรียญหลักของบริษัท Sandora หรือโปรเจคหลักของบริษัทคือ เหรียญ Sando (ERC-20) ไม่เพียงเท่านั้น เรายังมีโปรเจคอีกมากที่กำลังตามมาในอนาคต",
+    "project.ocean.description":"ตลาดซื้อขาย NFTs บน Ethereum Chain Network",
+    "project.monster.description":"Metaverse GameFi & Play-to-Earn",
+    "project.solsky.description":"ตลาดซื้อขาย NFTs บน Solana Chain Network",
+    "project.sando.description":"เป็นสกุลเงินที่ใช้กับ Sandora Projects Platform",
+    "project.city.description":"Metaverse เกมโลกอนาคตเสมือนจริง",
+    "project.metasando.description":"Metaverse แพลตฟอร์มสำหรับตลาดซื้อขาย NFTs ในเกม บน Cross Chain Bridge",
+    "project.spin.description":"Metaverse GameFi & Play-to-Earn",
+    "project.future.header":"FUTURE PROJECTS",
+    "project.future.wallet.header":"Sandora Wallet",
+    "project.future.wallet.description":"กระเป๋าแรกของโลกบนระบบบล็อกเชนที่ใช้แนวคิดของระบบ Quantum Computing",
+    "project.future.chain.header":"Sandora Chain Network",
+    "project.future.chain.descripniton":"อัลกอริทึม Random & Multi จากแนวคิดของระบบ Quantum Computing",
+    "footer.copyright":"Copyright © 2022 SANDORA PTY LTD, สงวนลิขสิทธิ์"
+  }

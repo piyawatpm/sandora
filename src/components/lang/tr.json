@@ -1,0 +1,19 @@
+{
+    "herosection.welcome":"Hoşgeldİnİz",
+    "herosection.welcome.description":"Sandora Pty Ltd, Mart 2022'de Avustralya'da tescil edilmiştir. Sanal ekonomi yaratmak için bir ürün ekosistemi yaratıyoruz. Aynı zamanda hem bizi hem de işinizi büyütmek için yeni fırsatlar sunuyoruz. Güvenli, hızlı ve tamamen şeffaf olmasını sağlayan gelişmiş blok zinciri teknolojisini kullanıyoruz.",
+    "project.header":"SANDORA PROJELERİ",
+    "project.description":"Sandora şirketinin ana tokeni ve proje adı Sando Token ERC-20'dir. Bununla birlikte sırada bekleyen daha birçok proje bulunmaktadır.",
+    "project.ocean.description":"Ethereum Zincir Ağından Üretilmiş NFT Pazar Yeri Platformu",
+    "project.monster.description":" Metaverse GameFi Oyna-Kazan",
+    "project.solsky.description":"Solana Zincir Ağından Üretilmiş NFT Pazar Yeri Platformu",
+    "project.sando.description":"Sandora Projeleri  için kullanılan Para Birimi",
+    "project.city.description":"Geleceğin Sanal Metaverse Oyunu",
+    "project.metasando.description":"Çapraz Zincirli Köprüde Üretilmiş Metaverse Oyun NFT Pazar Yeri Platformu",
+    "project.spin.description":"Metaverse GameFi Oyna-Kazan",
+    "project.future.header":"GELECEKTEKİ PROJELER",
+    "project.future.wallet.header":"Sandora Cüzdanı",
+    "project.future.wallet.description":"Dünyada Kuantum Hesaplama İşlem Konseptini kullanan İlk Blockchain Ağ Cüzdanı.",
+    "project.future.chain.header":"Sandora Zincir Ağı",
+    "project.future.chain.description":"Kuantum Hesaplama İşleme Konsepti için Rastgele ve Çoklu Algoritma",
+    "footer.copyright":"Telif Hakkı © 2022 SANDORA PTY LTD, Tüm Hakları Saklıdır."
+  }
