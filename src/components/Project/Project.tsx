@@ -13,11 +13,11 @@ const chill = () => {
 const Project = () => {
   return (
     <div className="bg-[url('/images/project-bg.png')] bg-cover bg-center ">
-      <div className=" p-10 bg-transparent container mx-auto max-w-screen-xl ">
-        <h1 className="text-[60px] font-bold text-transparent textgradient-white">
+      <div className="p-5 sm:p-10 bg-transparent container mx-auto max-w-screen-xl ">
+        <h1 className="text-[20px] sm:text-[60px] font-bold text-transparent textgradient-white">
         SANDORA PROJECTS
         </h1>
-        <p className=" text-[20px] font-medium">The Sandora company main token or project name is Sando Token ERC-20. But, there are many other projects that are in queue.</p>
+        <p className=" text-[13px] mt-5 sm:text-[20px] font-medium">The Sandora company main token or project name is Sando Token ERC-20. But, there are many other projects that are in queue.</p>
         <div className=" pt-10 flex  justify-center ">
           <div className=" flex-col flex ml-[-70px] mt-[-9px]   ">
             <a

@@ -1,6 +1,6 @@
 const Footer = ()=>{
 return(
-    <div className=" flex flex-col items-center justify-center mt-[150px] space-y-3">
+    <div className=" flex flex-col items-center justify-center mt-10 sm:mt-[150px] space-y-3">
             <div className=" flex space-x-3">
                 <img src="/images/social/facebook.svg" alt="" />
                 <img src="/images/social/twitter.svg" alt="" />
