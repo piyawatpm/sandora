@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gcloud config set project modular-ground-369806 && gcloud app deploy app.yaml --version=0-1-0"
   },
   "dependencies": {
     "@types/node": "18.11.9",

@@ -3,10 +3,11 @@ import { FormattedMessage } from "react-intl";
 const FutureProject = () => {
   return (
     <div className=" mt-10">
-      <h1 className="  sm:text-[60px] font-extrabold mb-10">
+      <h1 className="  sm:text-[60px] font-extrabold mb-10 ">
         {" "}
         <FormattedMessage id="project.future.header" />
       </h1>
+      <img src="/images/future_project/wallet.gif" className="sm:w-[500px] sm:h-[604px] mx-auto" alt="" />
       <div className=" flex sm:flex-row flex-col  sm:space-y-0 space-y-3 sm:space-x-3 px-8 text-justify">
         <div className=" sm:h-auto h-[230px] sm:w-1/2 flex flex-col justify-around rounded-[36px] bg-gradient-to-b from-[#CC00FF] to-[#320071] p-7 sm:p-12">
           <div className=" flex flex-col ">
@@ -43,6 +44,7 @@ const FutureProject = () => {
           </p>
         </div>
       </div>
+    
     </div>
   );
 };
