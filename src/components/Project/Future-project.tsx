@@ -40,7 +40,7 @@ const FutureProject = () => {
             </p>
           </div>
         </div>
-        <img src="/images/future_project/chain-diagram.png" className="" alt="" />
+        <img src="/images/future_project/chain-diagram.png" className=" sm:hidden" alt="" />
         <div className="  sm:h-auto h-[230px]   flex flex-row justify-around sm:justify-end rounded-[36px] bg-gradient-to-b from-[#CC00FF] to-[#320071] p-7   sm:p-12">
        
           <div className=" flex flex-col justify-center">

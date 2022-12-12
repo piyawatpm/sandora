@@ -1,6 +1,6 @@
 const Video = () => {
   return (
-    <div className="bg-[url('/images/video-bg.png')] bg-cover sm:h-[795px] mix-blend-overlay relative flex items-center justify-center p-10 sm:p-5">
+    <div className="bg-[url('/images/video-bg.png')] bg-cover sm:h-[795px] relative flex items-center justify-center p-10 sm:p-5">
       {/* https://storage.googleapis.com/geometric-rex-343406.appspot.com/Video/Sandora%20Wallet.mp4 */}
         <img src="/images/computer.png" className=" mix-blend-normal" alt="" />
         <video
