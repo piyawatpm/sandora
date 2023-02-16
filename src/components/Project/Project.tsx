@@ -10,7 +10,7 @@ const Project = () => {
         <h1 className="text-[20px] sm:text-[60px] font-bold text-transparent textgradient-white">
         <FormattedMessage id="project.header" />
         </h1>
-        <p className=" text-[13px] mt-5 sm:text-[20px] font-medium">  <FormattedMessage id="project.description" /></p>
+        <p className=" text-[13px] mt-5 sm:text-[16px] font-medium">  <FormattedMessage id="project.description" /></p>
         <div className=" pt-10 flex sm:flex-row flex-col sm:items-start items-center justify-center ">
           <div className=" flex-col flex  mt-[-9px]   ">
             <a

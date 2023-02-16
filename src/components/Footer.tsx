@@ -89,7 +89,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <p className=" text-[11px] sm:text-[18px] font-bold">
+      <p className=" text-[11px] sm:text-[12px] font-medium">
         {" "}
         <FormattedMessage id="footer.copyright" />
       </p>

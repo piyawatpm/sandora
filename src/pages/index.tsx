@@ -5,7 +5,7 @@ import Video from "../components/Video";
 
 export default function Home() {
   return (
-    <div className="bg">
+    <div className="bg text-white">
       <Header/>
       <Herosection />
       <Video/>

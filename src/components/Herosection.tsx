@@ -33,16 +33,16 @@ const Herosection = () => {
             Türkçe
           </Link>
         </div>
-        <div className=" sm:w-1/2 flex flex-col text-justify text-[13px] sm:text-[20px] space-y-5 justify-center lg:h-[800px]">
+        <div className=" sm:w-[40%] flex flex-col text-justify text-[13px] sm:text-16px] space-y-5 justify-center lg:h-[800px]">
           <h1 className=" text-[20px] sm:text-[35px] font-bold text-transparent textgradient-white">
             <FormattedMessage id="herosection.welcome" />
           </h1>
           <img src="/images/sandora.png" alt="" />
-          <p>
+          <p className=" text-white">
             <FormattedMessage id="herosection.welcome.description" />
           </p>
         </div>
-        <div className=" sm:w-1/2 flex justify-center items-center  ">
+        <div className=" sm:w-[60%] flex justify-center items-center  ">
           <div className=" relative h-fit w-fit">
             <img src="/images/logo.png" alt="" className="" />
             <img
