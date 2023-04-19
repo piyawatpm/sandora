@@ -1,46 +1,57 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { FormattedMessage } from "react-intl";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { FormattedMessage } from 'react-intl';
 
 const Herosection = () => {
   const { locale } = useRouter();
+
   return (
     <div className="bg-[url('/images/herosection-bg.png')] bg-cover">
-      
-      <div className="container max-w-screen-xl mx-auto flex sm:flex-row flex-col-reverse p-5 sm:p-10 relative ">
-        <div className=" hidden sm:flex absolute font-bold space-x-2 top-0 right-0 mt-[3%] mr-[3%]">
+      <div className="container max-w-screen-xl mx-auto flex sm:flex-row sm:h-[795px] flex-col-reverse p-5 sm:p-10 relative ">
+        <div className=" hidden sm:flex absolute font-bold space-x-2 top-0 right-0 mt-[3%] mr-[3%] w-full pl-[100px]">
+          <div className=" flex mr-auto ">
+            <Link href={''} className="mr-[120px]">
+              SANDORA
+            </Link>
+            <div className=" flex gap-x-10 font-normal">
+              <Link href={''}>Company</Link>
+              <Link href={''}>Main project</Link>
+              <Link href={''}>Sandora project</Link>
+            </div>
+          </div>
+
           <Link
             href=""
-            locale={"en"}
-            className={`${locale === "en" && "text-[#FFB700]"}`}
+            locale={'en'}
+            className={`${locale === 'en' && ' text-[#B903FC]'} font-normal`}
           >
             ENG
           </Link>
           <p>|</p>
           <Link
             href=""
-            locale={"th"}
-            className={`${locale === "th" && "text-[#FFB700]"}`}
+            locale={'th'}
+            className={`${locale === 'th' && ' text-[#B903FC]'} font-normal`}
           >
             TH
           </Link>
           <p>|</p>
           <Link
             href=""
-            locale={"tr"}
-            className={`${locale === "tr" && "text-[#FFB700]"}`}
+            locale={'tr'}
+            className={`${locale === 'tr' && ' text-[#B903FC]'} font-normal`}
           >
             Türkçe
           </Link>
         </div>
         <div className=" sm:w-[40%] flex flex-col text-justify text-[13px] sm:text-16px] space-y-5 justify-center lg:h-[800px]">
-          <h1 className=" text-[20px] sm:text-[35px] font-bold text-transparent textgradient-white">
+          {/* <h1 className=" text-[18px]  font-bold text-transparent textgradient-white">
             <FormattedMessage id="herosection.welcome" />
-          </h1>
+          </h1> */}
           <img src="/images/sandora.png" alt="" />
-          <p className=" text-white">
+          {/* <p className=" text-white">
             <FormattedMessage id="herosection.welcome.description" />
-          </p>
+          </p> */}
         </div>
         <div className=" sm:w-[60%] flex justify-center items-center  ">
           <div className=" relative h-fit w-fit">
@@ -80,7 +91,20 @@ const Herosection = () => {
               alt=""
               className=" sm:w-auto w-[44px] absolute animation-delay-200 animate-bounce-slow  duration-500 bottom-[15%] right-[15%]"
             />
+            <img
+              src="/images/herosection/ai.png"
+              alt=""
+              className=" sm:w-auto w-[44px] absolute animation-delay-200 animate-bounce-slow  duration-500 bottom-[35%] right-[15%]"
+            />
           </div>
+        </div>
+        <div className=" flex flex-col absolute bottom-[2%] scale-75  right-1/2  translate-x-1/2 items-center justify-center gap-y-2 cursor-pointer">
+          <p className=' text-[16px] font-medium text-white'>ABOUT US</p>
+          <img
+            src="/images/down.png"
+            className=" "
+            alt=""
+          />
         </div>
       </div>
     </div>

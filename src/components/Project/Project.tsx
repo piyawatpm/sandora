@@ -1,143 +1,127 @@
+/* eslint-disable react/no-unescaped-entities */
 // @ts-ignores
 
-import { FormattedMessage } from "react-intl";
-import Footer from "../Footer";
-import FutureProject from "./Future-project";
+import { FormattedMessage } from 'react-intl';
+import Footer from '../Footer';
+
 const Project = () => {
   return (
-    <div className="bg-[url('/images/project-bg.png')] bg-cover bg-center ">
+    <div className="project bg-cover bg-center  relative py-[133px]">
+      <div className=" w-screen absolute top-0">
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          className="svgcolor-light "
+          width="100%"
+          height="133"
+        >
+          <path d="M 0 0 L 0 100 L 100 0 Z" fill="#0E021E" />
+        </svg>
+      </div>
       <div className="p-5 sm:p-10 bg-transparent container mx-auto max-w-screen-xl ">
-        <h1 className="text-[20px] sm:text-[60px] font-bold text-transparent textgradient-white">
-        <FormattedMessage id="project.header" />
-        </h1>
-        <p className=" text-[13px] mt-5 sm:text-[16px] font-medium">  <FormattedMessage id="project.description" /></p>
-        <div className=" pt-10 flex sm:flex-row flex-col sm:items-start items-center justify-center ">
-          <div className=" flex-col flex  mt-[-9px]   ">
-            <a
-              href="https://oceansky.io/"
-              target="_blank"
-              className="hex  hover:scale-105  cursor-pointer  sm:translate-y-[50%] oceansky w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col items-center p-3"
-              rel="noreferrer"
-            >
-              <img
-                src="/images/logo/logo-oceansky.png"
-                className=" w-[82px] sm:w-[140px]"
-                alt=""
-              />
-              <h1 className=" text-[#FFE921] font-extrabold text-[13px] sm:text-[25px]">
-                OCEANSKY.IO
+        <div className="  relative w-full flex items-center justify-center">
+          <h1 className=" text-bg absolute">MAIN PROJECTS</h1>
+          <p className=" text-[44px] font-bold ">MAIN PROJECTS</p>
+        </div>
+        <p className=" text-[13px] mt-5 sm:text-[16px] font-medium">
+          {' '}
+          Our main projects, the Sandora Chain Network and Sandora Wallet, offer
+          our users the highest levels of security and convenience, delivering a
+          seamless and efficient experience. Our Sando tokens, which are
+          exchange and utility tokens based on the ERC-20 standard, allow for
+          crowdfunding within our ecosystem to build our operations and
+          platforms.
+        </p>
+
+        <div className=" flex flex-col  sm:space-y-5 space-y-3 px-8 text-justify">
+          <div className=" flex w-full">
+            <div className=" flex flex-col justify-center w-[70%] ">
+              <h1 className="  text-[28px] font-semibold uppercase text-left  text-transparent textgradient-yellow ">
+                Sandora Wallet
               </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.ocean.description" />
+
+              <p className=" text-[13px] sm:text-[16px] font-normal">
+                The First Blockchain Network Wallet using Quantum Computing
+                Processing Concept in the World.
               </p>
-            </a>
-            <div className="hex  hover:scale-105  cursor-pointer sm:translate-y-[50%] bg-gradient-to-b sm:mt-[-18px] from-[#CC00FF] to-[#320071] w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col  items-center justify-center p-3">
-              <img
-                src="/images/logo/logo-monster.png"
-                className="w-[120px] sm:w-[218px] h-[46px] sm:h-[79px]"
-                alt=""
-              />
-              <h1 className="  text-transparent textgradient-green font-extrabold text-[13px] sm:text-[25px]">
-                MONSTERRUNNER.IO
-              </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.monster.description" />
+              <p className=" mt-2">
+                Sandora Wallet is a future project of Sandora Chain Network that
+                aims to provide users with a secure and user-friendly way to
+                store and manage their cryptocurrencies and other digital
+                assets. The wallet will be designed to support multiple
+                blockchains, including Ethereum and Binance Smart Chain, and
+                will allow users to easily switch between different networks.
               </p>
             </div>
+            <img
+              src="/images/future_project/wallet.gif"
+              className="sm:w-[256px] sm:h-[310px] mx-auto sm:block hidden"
+              alt=""
+            />
           </div>
-          
-          <div className=" flex-col flex sm:ml-[-70px]  ">
-            <a
-              href="https://www.solsky.io/"
-              target="_blank"
-              className="hex  hover:scale-105  cursor-pointer   solsky w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col items-center p-3"
-              rel="noreferrer"
-              >
-              <img
-                src="/images/logo/logo-solsky.png"
-                className=" w-[82px] sm:w-[140px]"
-                alt=""
-              />
-              <h1 className=" text-white font-extrabold text-[13px] sm:text-[25px]">
-                SOLSKY.IO
+          <div className=" flex w-full">
+            <img
+              src="/images/future_project/chain.png"
+              className=" absolute"
+              alt=""
+            />
+            <div className=" flex flex-col items-end ml-[23%] gap-y-3">
+              <h1 className="  text-[28px] font-semibold uppercase  text-transparent textgradient-yellow ">
+                Sandora CHAIN NETWORK
               </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.solsky.description" />
+
+              <p className=" text-[13px] sm:text-[16px] font-normal">
+                Random & Multi Algorithm for Quantum Computing Processing
+                Concept.
               </p>
-            </a>
-         
-            <a
-              href="https://www.sandotoken.io/"
-              target="_blank"
-              className="hex  hover:scale-105  cursor-pointer sm:mt-[-18px]  bg-gradient-to-b from-[#FF0090] to-[#A90AE1] w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col items-center p-3"
-              rel="noreferrer"
-            >
-              <img
-                src="/images/logo/logo-sando.png"
-                className=" w-[82px] sm:w-[140px]"
-                alt=""
-              />
-              <h1 className=" text-[#FFE921] font-extrabold text-[13px] sm:text-[25px]">
-                SANDOTOKEN.IO
-              </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.sando.description" />
+              <p className=" mt-2 z-10">
+                Sandora Chain Network is a decentralized finance (DeFi) platform
+                that aims to provide a secure and scalable blockchain
+                infrastructure for building decentralized applications (dApps).
+                The platform is built on top of the Ethereum blockchain and
+                utilizes its smart contract capabilities. However, Sandora Chain
+                Network aims to overcome some of the limitations of the Ethereum
+                network, such as high gas fees and slow transaction processing
+                times.
               </p>
-            </a>
-            <a
-              className="hex  hover:scale-105  cursor-pointer bg-gradient-to-b sm:mt-[-18px] from-[#CC00FF] to-[#320071] w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col items-center justify-center p-3"
-              rel="noreferrer"
-            >
-              <img
-                src="/images/logo/logo-city.png"
-                className="w-[191px] sm:w-[249px] h-[81px] sm:h-[118px]"
-                alt=""
-              />
-              <h1 className="  text-transparent textgradient-green font-extrabold text-[13px] sm:text-[25px]">
-                SANDOCITY.IO
-              </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.city.description" />
-              </p>
-            </a>
-          </div>
-          <div className=" flex-col flex sm:ml-[-70px] sm:mt-[-9px]">
-            <a
-              href="https://www.metasando.io/"
-              target="_blank"
-              className="hex  hover:scale-105  cursor-pointer sm:translate-y-[50%] metasando w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col items-center p-3"
-              rel="noreferrer"
-            >
-              <img
-                src="/images/logo/logo-metasando.png"
-                className=" w-[82px] sm:w-[140px]"
-                alt=""
-              />
-              <h1 className="  text-transparent textgradient-yellow font-extrabold text-[13px] sm:text-[25px]">
-                METASANDO.IO
-              </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.metasando.description" />
-              </p>
-            </a>
-            <div className="hex  hover:scale-105  cursor-pointer bg-gradient-to-b sm:mt-[-18px] sm:translate-y-[50%] from-[#FF0090] to-[#A90AE1] w-[250px] sm:w-[317px] h-[211px] sm:h-[279px] flex flex-col items-center  pt-5 p-3">
-              <img
-                src="/images/logo/logo-spin.png"
-                className=" w-[82px] sm:w-[140px]"
-                alt=""
-              />
-              <h1 className="  text-transparent textgradient-green font-extrabold text-[13px] sm:text-[25px]">
-                METASPINWHEEL.IO
-              </h1>
-              <p className=" text-[11px] sm:text-[14px] text-center max-w-[200px]">
-              <FormattedMessage id="project.spin.description" />
-              </p>
+              <button className=" button px-[35px] py-[12px]">
+                Learn More
+              </button>
             </div>
+          </div>
+          <div className=" flex w-full">
+            <div className=" flex flex-col justify-center items-start gap-y-3 w-[70%]">
+              <h1 className="  text-[28px] font-semibold uppercase text-left  text-transparent textgradient-yellow ">
+                Sandora SWAP
+              </h1>
+
+              <p className=" text-[13px] sm:text-[16px] font-normal">
+                Sandora Swap is a decentralized exchange (DEX) protocol that
+                operates on the Sandora Chain Network, enabling users to trade
+                cryptocurrencies and other digital assets on the Sandora Chain.
+                The Sandora Chain is designed to support Sandora's ecosystem of
+                projects, including OceanSkyDigital NFTs Marketplace on
+                Ethereum, Solsky NFTs Digital Marketplace on Solana, ArtsAI,
+                MetaSando Play-to-Earn Game Metaverse such as MonsterRunner,
+                MetaSpinWheel, and Sandocity.
+              </p>
+              <button className=" button px-[35px] py-[12px]">
+                Learn More
+              </button>
+            </div>
+            <img src="/images/future_project/swap.png" className="" alt="" />
           </div>
         </div>
-        <FutureProject/>
-        <Footer/>
+        <div className=" flex flex-col absolute bottom-[133px] right-1/2  translate-x-1/2 scale-75 items-center justify-center gap-y-2 cursor-pointer">
+          <p className=" text-[16px] font-medium text-white uppercase ">
+            explore our projects
+          </p>
+          <img src="/images/down.png" className=" " alt="" />
+        </div>
       </div>
+
     </div>
   );
 };
